@@ -1,4 +1,4 @@
-const defaultLocale = 'en-US';
+const defaultLocale = 'es-US';
 
 function requestChatBot(loc) {
     const params = new URLSearchParams(location.search);
@@ -85,7 +85,7 @@ function initBotConversation() {
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
-        botAvatarInitials: 'BiaBot',
+        botAvatarInitials: '',
         userAvatarInitials: 'You',
         backgroundColor: '#FFFFFF'
     };
