@@ -85,7 +85,7 @@ function initBotConversation() {
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
-        botAvatarInitials: 'Bot',
+        botAvatarInitials: 'BiaBot',
         userAvatarInitials: 'You',
         backgroundColor: '#F8F8F8'
     };
@@ -105,15 +105,17 @@ function initBotConversation() {
                             jsonWebToken: jsonWebToken,
 
                             // Use the following activity to proactively invoke a bot scenario
-                            /*
+                            
                             triggeredScenario: {
-                                trigger: "{scenario_id}",
+                                trigger: "{covid19_assessment}",
+                                /*
                                 args: {
                                     myVar1: "{custom_arg_1}",
                                     myVar2: "{custom_arg_2}"
                                 }
+                                */
                             }
-                            */
+                            
                         }
                     }
                 }
