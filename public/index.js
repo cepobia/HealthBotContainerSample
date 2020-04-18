@@ -81,7 +81,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://cepobia.com/assets/images/logos/simbolo.png',
+        botAvatarImage: 'https://cepobia.com/assets/images/logos/SimboloDark.png',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
